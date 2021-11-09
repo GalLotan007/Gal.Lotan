@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Exercise 3</title>
+</head>
+<body>
+    <h1 id="main-header" class="header">Gal Forms</h1>
+    <p  id="subtitle">Please fill the follow: </p>
+    <form action="">
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname"><br>
+
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname"><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" pattern=".+@globex\.com" size="30" required name="email" placeholder="example@gmail.com"><br>
+
+        <label for="birthday">Birthday:</label><br>
+        <input type="date" id="birthday" name="birthday" ><br>
+
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password" ><br>
+
+        <br>
+        <input type="submit" value="Submit">
+
+    </form>
+    
+    <h1 id="sub-header" class="header">Keep in touch</h1>
+    <form action="">
+
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname2" name="fname"><br>
+
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname2" name="lname"><br>
+
+        
+        <label for="email">Email:</label><br>
+        <input type="email" id="email2" pattern=".+@globex\.com" size="30" required name="email" placeholder="example@gmail.com"><br>
+
+        <label for="adress">Adress:</label><br>
+        <input type="text" id="adress" name="adress"><br>
+
+        <label for="phone">Phone:</label><br>
+        <input type="phone" id="phone" name="phone"><br>
+
+        <label for="comment">Comment:</label><br>
+        <textarea id="comment" name="comment" rows="4" cols="50"><br>
+
+    </form>
+</body>
+</html>

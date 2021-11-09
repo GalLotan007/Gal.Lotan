@@ -1,0 +1,13 @@
+.header {
+    color: red;
+    font-weight: bold;
+}
+
+#subtitle {
+    color: rgb(0, 255, 85);
+    font-weight: bold;
+}
+
+input[name=email] {
+    width: 500px;
+  }
